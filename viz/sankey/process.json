@@ -1,0 +1,71 @@
+{
+   "nodes" : [
+      {
+         "name" : "",
+         "id" : "final_score"
+      },
+      {
+         "name" : "X=0",
+         "id" : "group_a",
+         "color" : "#33aa00"
+      },
+      {
+         "name" : "X=1",
+         "id" : "group_a_c",
+         "color" : "#edbd00"
+      }, 
+      {
+         "id" : "outcome_a_x",
+         "name" : "YES",
+         "color" : "#97ba4c"
+      },
+      {
+         "name" : "NO",
+         "id" : "outcome_a_x_c",
+         "color" : "#fa9766"
+      },
+      {
+         "id" : "outcome_a_c_x",
+         "name" : "YES",
+         "color" : "#97ba4c"
+      },
+      {
+         "name" : "NO",
+         "id" : "outcome_a_c_x_c",
+           "color" : "#fa9766"
+      }
+
+   ],
+   "links" : [
+      {
+         "source" : 0,
+         "value" : 0.3,
+         "target" : 1
+      },
+      {
+         "value" : 0.7,
+         "source" : 0,
+         "target" : 2
+      },
+      {
+         "value" : 0.12,
+         "source" : 1,
+         "target" : 3
+      },
+      {
+         "value" : 0.18,
+         "source" : 1,
+         "target" : 4
+      },
+      {
+         "value" : 0.42,
+         "source" : 2,
+         "target" : 5
+      },
+      {
+         "value" : 0.28,
+         "source" : 2,
+         "target" : 6
+      }
+   ]
+}
